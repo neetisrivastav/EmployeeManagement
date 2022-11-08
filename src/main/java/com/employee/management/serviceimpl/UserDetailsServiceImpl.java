@@ -1,10 +1,10 @@
 package com.employee.management.serviceimpl;
 
+import com.employee.management.model.Privilege;
 import com.employee.management.model.Role;
 import com.employee.management.model.User;
 import com.employee.management.repository.RoleRepository;
 import com.employee.management.repository.UserRepository;
-import com.employee.management.model.Privilege;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

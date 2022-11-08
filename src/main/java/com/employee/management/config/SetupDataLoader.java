@@ -6,7 +6,6 @@ import com.employee.management.model.User;
 import com.employee.management.repository.PrivilegeRepository;
 import com.employee.management.repository.RoleRepository;
 import com.employee.management.repository.UserRepository;
-import com.students.event.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
